@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/TestNG/Latest/jar_files/ant-1.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/TestNG/Latest/jar_files/ant-launcher-1.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/TestNG/Latest/jar_files/bsh-2.0b4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/TestNG/Latest/jar_files/hamcrest-core-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/TestNG/Latest/jar_files/jcommander-1.48.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/TestNG/Latest/jar_files/junit-4.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/TestNG/Latest/jar_files/snakeyaml-1.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/TestNG/Latest/jar_files/testng-6.9.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/Selenium Total Backup/Selenium/Apache POI/poi-bin-4.0.1-20181203/poi-4.0.1/poi-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/Selenium Total Backup/Selenium/Apache POI/poi-bin-4.0.1-20181203/poi-4.0.1/poi-ooxml-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/Selenium Total Backup/Selenium/Apache POI/poi-bin-4.0.1-20181203/poi-4.0.1/commons-compress-1.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/Selenium Total Backup/Selenium/Apache POI/poi-bin-4.0.1-20181203/poi-4.0.1/xmlbeans-3.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/Selenium Total Backup/Selenium/Apache POI/poi-bin-4.0.1-20181203/poi-4.0.1/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/Selenium Total Backup/Selenium/Apache POI/poi-bin-4.0.1-20181203/poi-4.0.1/poi-excelant-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/Selenium Total Backup/Selenium/Apache POI/poi-bin-4.0.1-20181203/poi-4.0.1/poi-ooxml-schemas-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/Selenium Total Backup/Selenium/Apache POI/poi-bin-4.0.1-20181203/poi-4.0.1/poi-examples-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/Selenium Total Backup/Selenium/Apache POI/poi-bin-4.0.1-20181203/poi-4.0.1/poi-scratchpad-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Rahul/Selenium/Selenium Total Backup/Selenium/Apache POI/poi-bin-4.0.1-20181203/poi-4.0.1/commons-collections4-4.2.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

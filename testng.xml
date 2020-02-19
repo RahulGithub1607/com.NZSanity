@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Suit">
+  <test thread-count="5" name="Login test">
+  
+    <classes>
+      <class name="com.testcases.TestCasesExecution"/>
+      <class name="com.testcases.LoginToNZ"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
