@@ -7,6 +7,10 @@ import org.testng.annotations.Test;
 
 import com.pages.InitializeBrowser;
 
+import junit.framework.Assert;
+
+
+
 
 public class TestCasesExecution {
 	
@@ -17,8 +21,9 @@ public class TestCasesExecution {
     public static void browser_setup() throws IOException
     
     {
-    	
     	InitializeBrowser init_browser =new InitializeBrowser(driver);
+    	
+    	//InitializeBrowser init_browser =new InitializeBrowser(driver);
     	
     	System.out.println("Browser_setup and driver ref:- "+driver);
     	
@@ -38,8 +43,7 @@ public class TestCasesExecution {
      
     	System.out.println("In Login Home page WebDriver  "+driver);
     	
-    	//need to fix here
-    	
+    		
       LoginToNZ lz = new LoginToNZ(driver);
       
       lz.LoginToNZDFE(driver);
@@ -48,11 +52,26 @@ public class TestCasesExecution {
       
       lz.get_loginPage(driver);
       
+      String page_title=driver.getTitle();
+      
+      System.out.println("Assertion is for page title");
+      Assert.assertEquals(page_title, "Inbox");
+      
       //return driver;
+      
+      
       
     }
     
     
-    
+    @Test
+    public static void quote_creation()
+    {
+    	
+    	System.out.println("Quote creation code::");
+    	CreateQuote cq =new CreateQuote(driver);
+    	cq.into_quotePage();
+    	
+    }
 
 }

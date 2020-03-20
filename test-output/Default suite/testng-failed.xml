@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testcases.LoginToNZ">
+      <class name="com.testcases.TestCasesExecution">
         <methods>
-          <include name="LoginToNZDFE"/>
+          <include name="browser_setup"/>
+          <include name="login_homePage"/>
         </methods>
-      </class> <!-- com.testcases.LoginToNZ -->
+      </class> <!-- com.testcases.TestCasesExecution -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
