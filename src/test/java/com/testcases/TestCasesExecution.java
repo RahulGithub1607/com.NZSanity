@@ -58,9 +58,7 @@ public class TestCasesExecution {
       Assert.assertEquals(page_title, "Inbox");
       
       //return driver;
-      
-      
-      
+          
     }
     
     

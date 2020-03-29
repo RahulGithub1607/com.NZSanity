@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testcases.TestCasesExecution">
+      <class name="com.Utility.ExtentReportTemplate">
         <methods>
-          <include name="browser_setup"/>
-          <include name="login_homePage"/>
+          <include name="VerfiyTitle"/>
         </methods>
-      </class> <!-- com.testcases.TestCasesExecution -->
+      </class> <!-- com.Utility.ExtentReportTemplate -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
