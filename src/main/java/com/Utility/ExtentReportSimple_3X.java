@@ -13,7 +13,7 @@ public class ExtentReportSimple_3X {
 
 	public static void main(String[] args) throws IOException {
 		
-		//This is  the sample for basic
+		//This is  the sample for basic and this samples
 		
 		//start reporters
 		
