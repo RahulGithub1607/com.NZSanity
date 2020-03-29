@@ -13,6 +13,8 @@ public class ExtentReportSimple_3X {
 
 	public static void main(String[] args) throws IOException {
 		
+		//This is  the sample for basic
+		
 		//start reporters
 		
 		ExtentHtmlReporter htmlReporter =new ExtentHtmlReporter("extent.html");
